@@ -1,10 +1,10 @@
 import './App.css';
-import Button from '@mui/material/Button';
+import DialogWindow from './Dialog';
 
 function App() {
   return (
     <div className="App">
-      <Button variant="contained">Feedback Geben</Button>
+      <DialogWindow />
     </div>
   );
 }
